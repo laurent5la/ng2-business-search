@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 System.register(['angular2/core', './business.service'], function(exports_1) {
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
         var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -45,3 +46,15 @@ System.register(['angular2/core', './business.service'], function(exports_1) {
     }
 });
 //# sourceMappingURL=app.component.js.map
+=======
+(function(app) {
+  app.AppComponent =
+    ng.core.Component({
+      selector: 'my-app',
+      template: '<h1>DandB Angular 2 Business Search Test Version 4 Jan 22,2016</h1>'
+    })
+    .Class({
+      constructor: function() {}
+    });
+})(window.app || (window.app = {}));
+>>>>>>> fd5a3c4882550a526727fff7cca120c29d4808f8
