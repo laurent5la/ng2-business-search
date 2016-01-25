@@ -1,0 +1,37 @@
+/*  table.results {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+  }
+  table.results th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+  }
+  table.results td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+  }*/
+
+  table th {
+    font-size: 14px;
+  }
+  
+  label{
+      padding: 5px;
+  }
+  .ng-valid[required] {
+    border-left: 5px solid #42A948; /* green */
+  }
+
+  .ng-invalid {
+    border-left: 5px solid #a94442; /* red */
+  }
